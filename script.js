@@ -9,7 +9,7 @@ $(document).ready(function(){
     //     return  Math.floor((num -273) * (9/5) +32);
     // }
     
-    // $('#submit').click(() =>{
+    // $('#submit').click function (){
     
     //     let zip = $('#input').val();
     //     if (zip != "" ){
