@@ -11,7 +11,7 @@ $(document).ready(function(){
     
     // $('#submit').click(() =>{
     
-    //     let zip = $('#zipCode').val();
+    //     let zip = $('#input').val();
     //     if (zip != "" ){
         
     
