@@ -19,14 +19,7 @@ $(document).ready(function(){
     
             //         //displays the returned object to the console 
             //         console.log(data);
-    
-            //         //sets all my variables
-            //         let city = data.name; 
-            //         let lon = data.
-
-    var date = moment.utc().format(' YYYY-MM-DD hh:mm:ss');
-    var stillUtc = moment.utc(date).toDate();
-    var local = moment(stillUtc).local().format(' YYYY-MM-DD hh:mm:ss'); 
+   
 
 $('#input').click (function(){
   
