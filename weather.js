@@ -21,10 +21,8 @@ $(document).ready(function(){
             //         let city = data.name; 
             //         let lon = data.
 
-    var date = moment.utc().format(' YYYY-MM-DD hh:mm:ss');
-    var stillUtc = moment.utc(date).toDate();
-    var local = moment(stillUtc).local().format(' YYYY-MM-DD hh:mm:ss'); 
-
+//     still working on it!!
+    
 $('#input').click (function(){
   
 
