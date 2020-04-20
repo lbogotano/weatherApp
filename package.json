@@ -1,0 +1,27 @@
+{
+  "name": "@lgonzalez/weatherapp",
+  "version": "1.0.0",
+  "description": "Weather app lab practice",
+  "main": "script.js",
+  "dependencies": {
+    "npm": "^6.14.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbogotano/weatherApp.git"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "author": "Luis Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbogotano/weatherApp/issues"
+  },
+  "homepage": "https://github.com/lbogotano/weatherApp#readme"
+}

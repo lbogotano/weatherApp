@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js "> -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Weather App</title>
 </head>
 <body>
-    <h1>Weather app by Luis Gonzalez</h1>
-    
+   <header>
+
+        <h1>Simple weather App</h1>
+        <h3>Enter zipcode to show today's weather</h3>
+
+   </header>
+       <form>
+
+           <input type="text" id='input'>
+           <button type="button" id="zipcodeButton">Enter Zip</button>
+
+       </form>
+
+       <Img src="https://media.giphy.com/media/l46CvT0RoLKPqufPq/giphy.gif" >
+        <ul id='displayJsTime'> </ul>
+
+        <div>
+            <h3 id="currentTime"></h3>
+            <h3 id="forecastWeather"></h3>
+        </div>
+
+
+       <script
+       src="https://code.jquery.com/jquery-3.4.1.min.js"
+         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+         crossorigin="anonymous"></script>
+  
+  <script src="weather.js"></script>
 </body>
 </html>
