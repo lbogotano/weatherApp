@@ -4,7 +4,7 @@
   "description": "Weather app lab practice",
   "main": "script.js",
   "dependencies": {
-    "npm": "^6.14.4"
+    "npm": "^6.14.6"
   },
   "devDependencies": {},
   "scripts": {
